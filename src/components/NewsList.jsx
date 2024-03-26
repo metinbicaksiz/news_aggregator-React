@@ -2,6 +2,8 @@ import NewsItem from "./NewsItem";
 
 const NewsList = ({ articles, query, authorVal, sorting }) => {
 
+
+
     const sortedArticles = () => {
         if (sorting === 'DESC') {
             return articles.sort((a, b) => {

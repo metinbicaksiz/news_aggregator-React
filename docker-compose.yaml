@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  metin_news_agg_react:
+    build: ../metin_news_agg_react
+    container_name: metin_news_agg_react_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true

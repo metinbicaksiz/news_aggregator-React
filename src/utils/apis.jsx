@@ -5,7 +5,7 @@ export const useGetArticles = () => {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
 
-    const newsapi = 'https://newsapi.org/v2/everything?q=Apple&apiKey=d07d4211b7d34b87ad8595d91cf08504';
+    const newsapi = 'https://newsapi.org/v2/everything?q=bitcoin&apiKey=d07d4211b7d34b87ad8595d91cf08504';
 
     useEffect(() => {
         fetch(newsapi)
