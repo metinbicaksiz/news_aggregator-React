@@ -1,5 +1,7 @@
 - The application uses tailwind ad React for the front-end. We are consuming 3 different APIs here, New York Times, The Guardian and NEWS API. The page lets you choose the api you want to get the news from. Then, you can sort them based on the date and author of the article.
 - The navigation bar also has a search area, which will let you search both in the title and the description part of the article.
+- in order to start the page, use 'npm start' command.
+- before deploying the project to Docker, do not forget to build the project by 'npm run build'
 
 
 Finally, you by using the docker-compose up command, you can containerize the whole application on your local machine. 
